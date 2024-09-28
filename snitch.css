@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+   
+  }
+  .nav{
+      height: 40px;
+      width: 100%;
+      border: 2px solid black;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+  }
+  p,a{
+      color: white;
+  }
+  #logo{
+      width: 200px;
+      height: 60px;
+      position: absolute;
+      left: 600px;   
+      cursor:pointer; 
+  }
+  #icon{
+  left: 2px;
+  }
+  #icon1,#icon2,#icon3,#icon{
+      position: absolute;
+      padding: 20px;
+      cursor: pointer;
+  }
+  #icon1{
+      left: 1300px;
+  }
+  #icon2{
+      left: 1330px;
+  }
+  #icon3{
+      left: 1360px;
+  }
+  .content-wrapper-tw {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      text-align: center;
+      padding: 0 40px;
+  }
+  #bg1{
+      width: 100px;
+      height: 1200px;
+      position: absolute;
+      top: 100px;
+      animation:bgnd 10s ;
+  }
+  #bg2{
+      width: 100%;
+      height: 1200px;
+      position: absolute;
+      top: 100px;
+      animation:bgnd 1s infinite;
+  }
+  @keyframes bgnd{
+      to{transform:translatex(30px);}
+  }
+  #btn1,#btn2{
+      border-radius: 9px;
+      position: absolute;
+      top: 800px;
+  }
+  #btn1{
+      background-color: black;
+      color: white;
+      left: 600px;
+      height: 35px;
+      width: 100px;
+  }
+  #btn2{
+      left: 720px;
+      background-color: white;
+      color: black;
+      height: 35px;
+      width: 120px;
+  }
+  #btn1,#btn2:hover{
+      cursor: pointer;
+  }
+  .men{
+      width: 174px;
+      height: 260px
+  }
+  .men1{
+      position: absolute;
+      top: 880px;
+      left: 295px;
+  }
+  #men2,#men3,#men4,#men5,#men6{
+      position: absolute;
+      top: 0px;
+  }
+  #men2{
+      left: -170px;
+  }
+  #men3{
+      left: 1000px;
+  }
+  #men4{
+      left: 700px;
+  }
+  #men5{
+      left: 400px;
+  }
+  #men6{
+      left:120px
+  }
+  #para1,#para2,#para3,#para4,#para5{
+      font-family:16px"Twentieth Century", sans-serif;
+      color: #1C1D1D;
+      position: absolute;
+      top: 280px;
+      width: 200px;
+  }
+  #para1{
+      left: -175px;
+  }
+  #para2{
+      left:100px;
+  }
+  #para3{
+      left: 400px;
+  }
+  #para4{
+      left:700px ;
+  }
+  #para5{
+      left: 1000px;
+  }
+  
+  #img{
+      position: absolute;
+      top: 530px; 
+  }
+  #btn3,#btn7{
+      position: absolute;
+      top: 1830px;
+      left: 700px;
+      margin: 15px 0px 0px;
+      padding: 8px 14px;
+      background-color: white;
+      border: 1px solid gray;
+  }
+  h2{
+      position: absolute;
+      top: 1900px;
+      left: 645px;
+  }
+  #img1,#img2,#img3,#img4{
+      position: absolute;
+      top: 2000px;
+  }
+  #img2,#img6{
+      left:390px
+  }
+  #img3,#img7{
+      left: 780px;
+  }
+  #img4,#img8{
+      left:1170px ;
+  }
+  img[alt="img"]:hover{
+      transform: scale(1,1.03);
+  }
+  h4{
+      position: absolute;
+      bottom: 80px;
+      color: white;
+      left: 110px;
+      font: 20px Futura,sans-serif;
+      font-weight: bold;
+  }
+  h3{
+      font: 30px Futura,sans-serif;
+      position: absolute;
+      top:2650px;
+      left: 600px;
+  }
+  #img5,#img6,#img7,#img8{
+      position: absolute;
+      top: 2750px;
+  }
+  #background{
+      position: absolute;
+      top: 3390px;
+      height: 1100px;
+  }
+  #btn4,#btn5,#btn6{
+      color: black;
+      position: absolute;
+      top: 4500px;
+      left: 500px;
+      color: white;
+      background-color: black;
+      height: 40px;
+      width: 80px;
+      border-radius: 12px;
+  }
+  #btn5{
+      left: 600px;
+      color: black;
+      background-color: white;
+  }
+  #btn6{
+      color: black;
+      background-color: white;
+      left: 700px;
+  }
+  #btn7{
+      position: absolute;
+      top: 5100px;
+      left: 650px;
+  }
+  img[alt="4ms"]:hover{
+      content:url("https://www..co.in/cdn/shop/files/4MST2424-0161.jpg?v=1723805116")
+  }
+  img[alt="5ms"]:hover{
+      content: url("https://www..co.in/cdn/shop/files/4MST2365-0148.jpg?v=1723804402");
+  }
+  img[alt="6ms"]:hover{
+      content: url("https://www..co.in/cdn/shop/files/4MST2422-0157.jpg?v=1723804603");
+  }
+  img[alt="7ms"]:hover{
+      content: url("https://www..co.in/cdn/shop/files/4MST2423-01-M38.jpg?v=1723804791");
+  }
+  img[alt="8ms"]:hover{
+      content: url("https://www..co.in/cdn/shop/files/4MST2423-0237.jpg?v=1723804972");
+  }
+  .men2{
+      position: absolute;
+      top: 4600px;
+      display: flex;
+      justify-content: space-between;
+  }
+  #men11,#men12,#men13,#men14,p{
+      position: absolute;
+      width: 290px;
+      height: 393px;
+      color: black;
+  }
+  #men12,p{
+      left:400px;
+  }
+  #men13{
+      left: 800px;
+  }
+  #men14{
+      left:1200px
+  }
+  img[alt="9ms"]:hover{
+      content:url("https://www..co.in/cdn/shop/files/a9567a16cbb6de15c26cd88597f61b8a.webp?v=1722609076")
+  }
+  img[alt="10ms"]:hover{
+      content: url("https://www..co.in/cdn/shop/files/4MSH7014-03-3222.jpg?v=1721106574");
+  }
+  img[alt="11ms"]:hover{
+      content: url("https://www..co.in/cdn/shop/files/7498e89ef1bde403fdd2c59cadcc1dc2.webp?v=1721048101");
+  }
+  img[alt="13ms"]:hover{
+      content: url("https://cdn.shopify.com/s/files/1/0420/7073/7058/files/dbdc3f436db8438d6fe8bc97009b9743.webp?v=1721048075");
+  }
+  #para6,#para7,#para8,#para9{
+      position: absolute;
+      left: 25px;
+      top: 400px;
+  }
+  #para7{
+      left: 400px;
+  }
+  #para8{
+      left: 800px;
+  }
+  #para9{
+      left: 1200px;
+  }
+  #head{
+      position: absolute;
+      left: 550px;
+      top: 5200px;
+  }
+  img[alt="4ms"]:hover{
+      content:url("https://www..co.in/cdn/shop/files/4MST2424-0161.jpg?v=1723805116")
+  }
+  .men11{
+      position: absolute;
+      top: 5300px;
+      left: 800px;
+  }
+  .foot{
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      height: 300px;
+      border: 2px solid black;
+      position: absolute;
+      top: 6300px;
+  }
+  .footicon{
+      position: absolute;
+      top: 6300px;
+      left: 130px;
+  }
+  .foot1{
+      font-family: 12.8px Futura,sans-serif;
+      position: absolute;
+      top: 6100px;
+      left: -350px;
+  }
+  #para10{
+      position: absolute;
+      top: 30px;
+      width: 550px;
+      left: 480px;
+  }
+  .input{
+      position: absolute;
+      top: 6200px;
+      color: black;
+      width: 300px;
+      left: 130px;
+      height: 50px;
+  }
+  #icon10{
+      position: absolute;
+      top: 6215px;
+      left:400px
+  }
+  .table{
+      position: absolute;
+      top: 5800px;
+      border-collapse: collapse; 
+      width: 75%; 
+      left: 130px;
+  }
+  td{
+      padding: 20px;
+  }
+  #reawrd{
+      background-color: black;
+      color: white;
+      border-radius: 11px;
+  }
